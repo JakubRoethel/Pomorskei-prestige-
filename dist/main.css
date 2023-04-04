@@ -261,8 +261,8 @@ audio:not([controls]) {
 }
 
 html {
-  background: #3C3C3C;
-  color: #fff;
+  background: #588bbc;
+  color: #030720;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
@@ -283,40 +283,22 @@ a {
   background: transparent;
 }
 a:focus {
-  outline: thin dotted;
+  outline: none;
 }
 a:hover, a:active {
   outline: 0;
 }
 
 h1 {
-  font-size: 6.8rem;
-  margin: 0.67em 0;
+  font-size: 2em;
 }
 
 h2 {
-  font-size: 3.6rem;
-  margin: 0.83em 0;
+  font-size: 1.5em;
 }
 
-h3 {
-  font-size: 3rem;
-  margin: 1em 0;
-}
-
-h4 {
-  font-size: 1.9rem;
-  margin: 1.33em 0;
-}
-
-h5 {
-  font-size: 0.83em;
-  margin: 1.67em 0;
-}
-
-h6 {
-  font-size: 0.75em;
-  margin: 2.33em 0;
+p {
+  font-size: 16px;
 }
 
 abbr[title] {
@@ -478,7 +460,7 @@ table {
   left: 0;
   right: 0;
   padding: 22px 51px;
-  color: #fff;
+  color: white;
   background: transparent;
   z-index: 6000;
   transition: 0.2s ease-in;
@@ -502,7 +484,7 @@ table {
 }
 
 .header--scrolled {
-  box-shadow: 0 0 20px 0 #000;
+  box-shadow: 0 0 20px 0 black;
   height: 78px;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -529,18 +511,18 @@ table {
   text-transform: uppercase;
 }
 .header__languages a {
-  color: #3f4255;
+  color: white;
   transition: width 0.2s ease-in;
   font-weight: 900;
 }
 .header__languages a:hover {
-  color: #fff;
+  color: white;
 }
 .header__languages .lang-item {
   padding: 5px 8px;
 }
 .header__languages .current-lang a {
-  color: #fff;
+  color: white;
 }
 
 .header__logo {
@@ -663,7 +645,7 @@ table {
   }
 }
 .header__navigation .menu-item a:hover {
-  color: #fff;
+  color: white;
   opacity: 1;
 }
 .header__navigation .current-menu-item a {
@@ -713,7 +695,7 @@ table {
   position: absolute;
   top: 0;
   right: 0;
-  background: #fff;
+  background: white;
   width: 37px;
   height: 3px;
   border-radius: 1px;
@@ -775,7 +757,7 @@ table {
 }
 .header__social .social__item a {
   font-size: 22px;
-  color: #3f4255;
+  color: white;
   transition: color 0.2s ease-in;
 }
 .header__social .social__item a:hover {

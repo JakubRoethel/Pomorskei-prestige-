@@ -65,7 +65,7 @@
   text-transform: uppercase;
 
   a {
-      color: $color_mid;
+      color: white;
       transition: width 0.2s ease-in;
       font-weight: 900;
 
@@ -329,7 +329,7 @@
 
       a{
           font-size: 22px;
-          color: $color_mid;
+          color: white;
           transition: color 0.2s ease-in;
 
           &:hover {
